@@ -20,5 +20,6 @@ else if (idade < 18){
 
 else{
     alert("Cadastro realizado! Veja os detalhes no console.")
-
+    console.log(` seu nome é ${nome} e voce tem ${idade} anos `)
 }
+// detalhes dos vinhos 
