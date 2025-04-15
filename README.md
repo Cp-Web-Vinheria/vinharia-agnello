@@ -11,5 +11,3 @@ link
 
 ## Imagem 
 
-
-![image](https://github.com/user-attachments/assets/1efaf31d-feef-460c-af62-bae2e9153c7e)
