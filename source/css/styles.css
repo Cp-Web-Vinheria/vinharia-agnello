@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    
 }
 
 #titulo{
@@ -95,6 +94,13 @@ main{
     color:#fff;
     border-radius: 20px;
 }
+
+#produto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
 
 #merlot{
     background-image: url(/source/imgs/vinho_merlot.jpg);
