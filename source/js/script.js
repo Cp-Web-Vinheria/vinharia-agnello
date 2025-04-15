@@ -23,3 +23,13 @@ else{
     console.log(` seu nome é ${nome} e voce tem ${idade} anos `)
 }
 // detalhes dos vinhos 
+    var nomeVinho = prompt("Qual o nome do seu vinho? ")
+console.log(nomeVinho)
+alert("O nome de seu vinho está salvo no console")
+alert("Qual tipo de vinho ? ")
+tipoVinho = prompt(` Vinho tinto \n Vinho Rose  \n Vinho Branco `)
+if (tipoVinho == " "){
+    alert("Digite o nome corretamente! ");
+    var tipoVinho = prompt(` Vinho tinto \n Vinho Rose  \n Vinho Branco `)  
+    
+}
