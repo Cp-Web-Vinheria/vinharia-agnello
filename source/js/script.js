@@ -57,3 +57,7 @@ if (estoqueVinho < 5){
 
 }
 
+alert("A quantidade de vinhos foi salva no console!")
+// informaçoes juntas
+console.log(`nome do vinho é ${nomeVinho},o tipo de vinho é ${tipoVinho} ,e a safra de seu vinho é  ${safraVinho} , a quantidade é de ${estoqueVinho} vinhos`)
+   
