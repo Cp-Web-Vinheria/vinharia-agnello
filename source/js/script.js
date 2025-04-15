@@ -23,36 +23,36 @@ else{
     console.log(` seu nome é ${nome} e voce tem ${idade} anos `)
 }
 // detalhes dos vinhos 
-    var nomeVinho = prompt("Qual o nome do seu vinho? ")
-console.log(nomeVinho)
+    var nomeVinho = prompt("Qual o nome do seu vinho? ");
+console.log(nomeVinho);
 alert("O nome de seu vinho está salvo no console")
 alert("Qual tipo de vinho ? ")
-tipoVinho = prompt(` Vinho tinto \n Vinho Rose  \n Vinho Branco `)
-if (tipoVinho == " "){
+tipoVinho = prompt(` Vinho tinto \n Vinho Rose  \n Vinho Branco `);
+if (tipoVinho == " ");{
     alert("Digite o nome corretamente! ");
-    var tipoVinho = prompt(` Vinho tinto \n Vinho Rose  \n Vinho Branco `)  
+    var tipoVinho = prompt(` Vinho tinto \n Vinho Rose  \n Vinho Branco `) ; 
     
 }
 
-console.log(tipoVinho)
+console.log(tipoVinho);
 // Tipo de  safra
-alert("o tipo do vinho está no console!")
-    var safraVinho = prompt(`Qual ano da safra do vinho ? `)
+alert("o tipo do vinho está no console!");
+    var safraVinho = prompt(`Qual ano da safra do vinho ? `);
     if (safraVinho >= 2020){
-        alert("Safra de vinho jovem!")}
+        alert("Safra de vinho jovem!");}
     else if (safraVinho >= 2015){
-        alert(" Safra de vinho amadurecido!")}
+        alert(" Safra de vinho amadurecido!");}
     else{
         alert("Safra de vinho antigo")
         
     }
-    alert("A safra de seu vinho está salva no console")
+    alert("A safra de seu vinho está salva no console");
 // Estoque de vinhos
-var estoqueVinho = prompt("Qual a quantidade de vinhos no estoque? ")
-console.log(estoqueVinho)
+var estoqueVinho = prompt("Qual a quantidade de vinhos no estoque? ");
+console.log(estoqueVinho);
 
 if (estoqueVinho < 5){
-    console.log("ESTOQUE BAIXO")
+    console.log("ESTOQUE BAIXO");
     
 
 }
