@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
 }
 
 #titulo{
@@ -28,9 +29,9 @@
   }
   
   .banner img {
-    max-width: 1200px; /* Limita a largura */
-    width: 100%;        /* Ocupa toda a largura até o limite */
-    height: 300px;
+    max-width: 1200px;
+    width: 100%;
+    height: 450px;
     border-radius: 10px;
   }
   
@@ -54,7 +55,7 @@
     margin: 10px auto;
     width: 80%;
     display: flex;
-    justify-content: center; /* <- isso aqui alinha os itens ao centro */
+    justify-content: center;
     text-align: center;
 }
 
@@ -90,7 +91,7 @@ main{
     height: 400px;
     margin: 10px;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 5px solid rgb(173, 37, 37);
     color:#fff;
     border-radius: 20px;
 }
@@ -156,7 +157,7 @@ main{
   }
 
 button{
-    background: rgb(221, 102, 102);
+    background: white;
     margin-top: 265px;
     padding: 15px 45px;
     border-radius: 20px;
