@@ -33,3 +33,27 @@ if (tipoVinho == " "){
     var tipoVinho = prompt(` Vinho tinto \n Vinho Rose  \n Vinho Branco `)  
     
 }
+
+console.log(tipoVinho)
+// Tipo de  safra
+alert("o tipo do vinho está no console!")
+    var safraVinho = prompt(`Qual ano da safra do vinho ? `)
+    if (safraVinho >= 2020){
+        alert("Safra de vinho jovem!")}
+    else if (safraVinho >= 2015){
+        alert(" Safra de vinho amadurecido!")}
+    else{
+        alert("Safra de vinho antigo")
+        
+    }
+    alert("A safra de seu vinho está salva no console")
+// Estoque de vinhos
+var estoqueVinho = prompt("Qual a quantidade de vinhos no estoque? ")
+console.log(estoqueVinho)
+
+if (estoqueVinho < 5){
+    console.log("ESTOQUE BAIXO")
+    
+
+}
+
