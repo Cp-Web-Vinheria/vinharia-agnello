@@ -103,13 +103,13 @@ main{
   }
 
 #merlot{
-    background-image: url(../source/imgs/vinho_merlot.jpg);
+    background-image: url(../imgs/vinho_merlot.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #chateaublanc{
-        background-image: url(../source/imgs/chateaublanc.jpg);
+        background-image: url(../imgs/chateaublanc.jpg);
         background-size: cover;
         background-position: center;
 }
@@ -133,13 +133,13 @@ main{
   }
 
 #chileno{
-    background-image: url(../source/imgs/chileno.jpg);
+    background-image: url(../imgs/chileno.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #latour{
-    background-image: url(../source/imgs/latour.jpg);
+    background-image: url(../imgs/latour.jpg);
     background-size: cover;
     background-position: center;
 }
