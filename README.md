@@ -7,11 +7,8 @@ Esse projeto é um sistema simples para cadastrar e analisar vinhos da Vinheira 
 - Luccas Figueira Gonçalves Costa
 
 ## 🔗 Link 
-github Pages (A imagem não carrega, e os alerts tambem não)
+github Pages
 </br> https://cp-web-vinheria.github.io/vinharia-agnello/
-
-Vercel (Codigo funcionando perfeitamente)
-</br> https://vinharia-agnello.vercel.app/
 
 ## 📷 Imagem 
 ![image](https://github.com/user-attachments/assets/e14fff0a-3754-4d11-9d36-49ea7b1dbf96)
