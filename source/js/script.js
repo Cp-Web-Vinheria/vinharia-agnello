@@ -6,58 +6,70 @@ if (nome == ""){
     var nome = prompt("digite seu nome:");
 }
 // idade 
-var anoNascimento = prompt("digite seu ano de nascimento: ")
-const idade = 2025 - anoNascimento
+var anoNascimento = prompt("digite seu ano de nascimento: ");
+const idade = 2025 - anoNascimento;
 // Caso da idade vazio 
 if(anoNascimento = ""){
     alert("Falha, digite algo para continuar");
-    var anoNascimento = prompt("digite seu ano de nascimento: ")
+    var anoNascimento = prompt("digite seu ano de nascimento: ");
 }
 // Caso menor de idade 
 else if (idade < 18){
-    alert(`Você é menor de idade volte em ${18 - idade} anos`)
+    alert(`Você é menor de idade volte em ${18 - idade} anos`);
 }
 
 else{
-    alert("Cadastro realizado! Veja os detalhes no console.")
-    console.log(` seu nome é ${nome} e voce tem ${idade} anos `)
+    alert("Cadastro realizado! Veja os detalhes no console.");
+    console.log(`Bem vindo ${nome} voce tem ${idade} anos `);
 }
 // detalhes dos vinhos 
-    var nomeVinho = prompt("Qual o nome do seu vinho? ");
-console.log(nomeVinho);
-alert("O nome de seu vinho está salvo no console")
-alert("Qual tipo de vinho ? ")
-tipoVinho = prompt(` Vinho tinto \n Vinho Rose  \n Vinho Branco `);
-if (tipoVinho == " ");{
-    alert("Digite o nome corretamente! ");
-    var tipoVinho = prompt(` Vinho tinto \n Vinho Rose  \n Vinho Branco `) ; 
-    
-}
 
+// Nome do vinho 
+var nomeVinho = prompt("Qual o nome do seu vinho? ");
+
+// Caso do nome do vinho vazio 
+if (nomeVinho == " "){
+    alert("Falha, digite o nome de seu vinho ");
+    var nomeVinho = prompt(` - Vinho tinto \n - Vinho Rose \n - Vinho Branco `); 
+}
+alert("A seguir, veja os detalhes do vinho no console.");
+console.log(nomeVinho);
+
+// Tipo de vinho
+var tipoVinho = prompt(`Digite o tipo do seu vinho: \n - Vinho tinto \n - Vinho Rose  \n - Vinho Branco `);
+
+// Caso do tipo de vinho vazio 
+if (tipoVinho == " "){
+    alert("Falha, digite o tipo de seu vinho ");
+    var tipoVinho = prompt(` - Vinho tinto \n - Vinho Rose \n - Vinho Branco `); 
+}
+alert("A seguir, veja os detalhes do vinho no console.");
 console.log(tipoVinho);
+
 // Tipo de  safra
-alert("o tipo do vinho está no console!");
-    var safraVinho = prompt(`Qual ano da safra do vinho ? `);
-    if (safraVinho >= 2020){
-        alert("Safra de vinho jovem!");}
-    else if (safraVinho >= 2015){
-        alert(" Safra de vinho amadurecido!");}
-    else{
-        alert("Safra de vinho antigo")
-        
-    }
-    alert("A safra de seu vinho está salva no console");
+var safraVinho = prompt(`Qual ano da safra do vinho ? `);
+
+if (safraVinho >= 2020){
+    alert("Safra de vinho jovem!");
+}
+else if (safraVinho >= 2015){
+    alert(" Safra de vinho amadurecido!");
+}
+else{
+    alert("Safra de vinho antigo");      
+}
+alert("A seguir, veja os detalhes do vinho no console.");
+console.log(safraVinho);
+
 // Estoque de vinhos
 var estoqueVinho = prompt("Qual a quantidade de vinhos no estoque? ");
-console.log(estoqueVinho);
 
 if (estoqueVinho < 5){
     console.log("ESTOQUE BAIXO");
-    
-
 }
+alert("A seguir, veja os detalhes do vinho no console.");
+console.log(estoqueVinho);
 
-alert("A quantidade de vinhos foi salva no console!")
 // informaçoes juntas
-console.log(`nome do vinho é ${nomeVinho},o tipo de vinho é ${tipoVinho} ,e a safra de seu vinho é  ${safraVinho} , a quantidade é de ${estoqueVinho} vinhos`)
+console.log(`nome do vinho é ${nomeVinho}, o tipo de vinho é ${tipoVinho}, e a safra de seu vinho é ${safraVinho}, a quantidade é de ${estoqueVinho} vinhos no estoque `);
    
